@@ -4,7 +4,7 @@ const { defineConfig, devices } = require( '@playwright/test' );
 /**
  * Playwright + wp-env setup following current WooCommerce e2e practices.
  *
- * @see https://github.com/woocommerce/woocommerce/tree/trunk/plugins/woocommerce/tests/e2e-pw
+ * WooCommerce e2e testing setup
  * @see https://developer.woocommerce.com/testing-extensions-and-maintaining-quality-code/best-practices-for-writing-and-running-end-to-end-tests/
  */
 module.exports = defineConfig( {
